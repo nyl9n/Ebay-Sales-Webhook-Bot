@@ -1,0 +1,22 @@
+Step 1: Create a webhook
+In your Discord server, click on the channel where you want to receive the eBay sale notifications. Click on the settings icon (cog) next to the channel name, and select "Integrations". Then, click on the "Create Webhook" button, and follow the prompts to create a webhook. Make note of the webhook URL that is generated, as you will need it in the next step.
+ 
+Step 2: Obtain eBay API credentials
+In order for the bot to access your eBay account and get sale information, you'll need to obtain API credentials from eBay. Follow the instructions on the eBay Developers website to create an app, and obtain your app ID, cert ID, dev ID, and auth token.
+ 
+Step 3: Install Python
+The bot is written in Python, so you'll need to install Python on your computer if you haven't already. You can download Python from the Python website.
+ 
+Step 4: Install the requests library
+The bot uses the requests library to make HTTP requests to the eBay API and to send messages to Discord. You can install this library by opening a command prompt or terminal window and typing pip install requests.
+ 
+Step 5: Copy the code
+Copy the Python code from my previous message and paste it into a new file in your preferred code editor or text editor. Save the file with a .py extension.
+ 
+Step 6: Update the code with your credentials and webhook URL
+Replace the placeholders in the code with your actual eBay API credentials and Discord webhook URL. Make sure to remove the YOUR_ prefix from each placeholder.
+ 
+Step 7: Run the code
+Open a command prompt or terminal window, navigate to the directory where you saved the Python file, and type python filename.py (replace filename.py with the actual name of your file). This will run the bot, which will continuously check for new eBay sales and send a message to your Discord channel when a sale is detected.
+ 
+That's it! As long as the bot is running, you should receive notifications in your Discord channel whenever you make a sale on eBay.
